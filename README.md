@@ -21,5 +21,5 @@ This is a simple console game "Rock Paper Scissors" made as an additional task f
 
 ![image](https://user-images.githubusercontent.com/114023351/192318381-5d5f389f-7b85-4b25-8ce8-d13096d5a750.png)
 
-# Live Demo
-[https://replit.com/@SimonNishanyan/RockPaperScissors?v=1](url)
+# Live Demo[
+https://replit.com/@SimonNishanyan/RockPaperScissors#main.py](url)
