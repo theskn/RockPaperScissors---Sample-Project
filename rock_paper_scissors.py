@@ -4,7 +4,9 @@ rock = "Rock"
 paper = "Paper"
 scissors = "Scissors"
 
+# game will loop if the result is a draw
 while True:
+    # determine the player move
     player_move = input("Choose [r]ock, [p]aper or [s]cissors: ")
     if player_move == "r":
         player_move = rock
@@ -12,8 +14,11 @@ while True:
         player_move = paper
     elif player_move == "s":
         player_move = scissors
+    # game will restart if the input is invalid
     else:
-        raise SystemExit("Invalid Input. Try again...")
+        print("Come on... Play by the rules!")
+        continue
+    # determine the computer move using a random number
     computer_move = random.randint(1, 3)
     if computer_move == 1:
         computer_move = rock
@@ -21,6 +26,7 @@ while True:
         computer_move = paper
     elif computer_move == 3:
         computer_move = scissors
+    # determine the result of the game
     print(f"The computer chose {computer_move}.")
     if (player_move == rock and computer_move == scissors) or \
             (player_move == paper and computer_move == rock) or \
