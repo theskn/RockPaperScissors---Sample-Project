@@ -1,8 +1,8 @@
 # RockPaperScissors---Sample-Project
 This is a simple console game "Rock Paper Scissors" made as an additional task for my Python course.
 
-# Source code URL 
-[https://github.com/theskn/RockPaperScissors-Sample-Project/blob/main/rock_paper_scissors.py](url)
+# Source code URL [
+https://github.com/theskn/RockPaperScissors-Sample-Project/blob/main/rock_paper_scissors.py](url)
 
 # How you play
 ## The player is presented with a choise at the beginning, which is done by entering the first letter of the players choice (R, P or S)
